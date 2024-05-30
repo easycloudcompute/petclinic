@@ -5,8 +5,8 @@
 replicaCount: 1
 
 image:
-  repository: initsixcloud/petclinic
-  tag: latest
+  repository: rahulunixsa87/springboot-app-1
+  tag: 2
   pullPolicy: IfNotPresent
 
 imagePullSecrets: []
