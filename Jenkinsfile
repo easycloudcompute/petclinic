@@ -7,7 +7,7 @@ pipeline {
                         sh 'cp -R helm/* .'
 		        sh 'ls -ltr'
                         sh 'pwd'
-                        sh '/usr/local/bin/helm upgrade --install petclinic-app petclinic --set image.repository=rahulunixsa87/springboot-app-1:2 --set image.tag=1'              			
+                        sh '/usr/local/bin/helm upgrade --install springboot-app-1 petclinic --set image.repository=rahulunixsa87/springboot-app-1:2 --set image.tag=1'              			
             }           
         }
     }
